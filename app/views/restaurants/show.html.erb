@@ -11,7 +11,7 @@
 
 
 
-<div class="container">
+<div class="container m-3">
   <% @restaurant.reviews.each do |review| %>
     <li class="list-group-item"><%= review.content %></li>
   <% end %>
@@ -19,6 +19,6 @@
 </div>
 
 
-<%= link_to 'Back', restaurants_path, class: "btn btn-primary" %> |
+<%= link_to 'Back', restaurants_path, class: "btn btn-primary" %>
 
 </div>
